@@ -1,0 +1,103 @@
+body {
+	background-color: #E4D9FF;
+	font-size: 15px;
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;	
+}
+
+div{
+	background-color: #FAFAFF;
+	width: 60%;
+	padding : 30px;
+	margin: 30px auto;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	text-align: center;
+}
+
+@media	(max-width: 760px) {
+	div{
+		width: 80%
+	}
+}
+
+@media	(max-width: 500px) {
+	div{
+		width: 95%
+	}
+}
+
+h1,h2 {
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	color: #F09505;
+	font-size: 28px;
+}
+
+h2	{
+	font-weight:bolder;
+	color: #253C82;
+	font-size: 22px;
+	font-weight: 300
+}
+
+.circle-image {
+	width: 125px;
+	border-radius: 50%;
+}
+
+.btn-mon-lien {
+	background-color: #F09505;
+	color: #30343F;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 35px;
+	border-radius: 50px;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+	transition: .5s;
+}
+
+.btn-mon-lien:hover {
+	background-color: #30343F;
+	color: #F09505;
+}	
+
+.card-contenu {
+	background-color: #EAF7FE;
+}
+
+#footer{
+	border-radius: 200px;
+	padding: 1px;
+	width: 300px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline; 
+	padding: 20px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color:black;
+}
+
+#wordpress:hover{
+	color: #21759b
+}
+
+#instagram:hover{
+	color: #C13584
+}
+
+#facebook:hover{
+	color: #3b5998
+}
